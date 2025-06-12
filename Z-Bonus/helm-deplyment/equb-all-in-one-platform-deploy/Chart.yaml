@@ -1,0 +1,13 @@
+apiVersion: v2
+name: equb-platform
+description: A Helm umbrella chart for deploying multiple microservices
+type: application
+version: 0.1.0
+appVersion: "1.0"
+dependencies:
+  - name: auth-service
+    version: 0.1.0
+    repository: file://charts/auth-service
+  - name: payment-service
+    version: 0.1.0
+    repository: file://charts/payment-service

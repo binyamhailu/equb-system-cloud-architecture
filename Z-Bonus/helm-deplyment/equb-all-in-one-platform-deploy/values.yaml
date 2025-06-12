@@ -1,0 +1,5 @@
+auth-service:
+  replicaCount: 1
+
+payment-service:
+  replicaCount: 1
