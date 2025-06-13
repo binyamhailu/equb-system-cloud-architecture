@@ -16,7 +16,7 @@ The architecture design is divided into four main components:
    - Data modeling and storage strategies
    - Indexing and sharding approaches
 
-3. [API Design & Integration](./question3/README.md)
+3. [API Design & Integration](./question3/API_Gateway_Security_Plan.md)
    - RESTful API specifications
    - Integration patterns with external services
    - API security and authentication
