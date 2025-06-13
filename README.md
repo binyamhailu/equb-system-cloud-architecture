@@ -4,7 +4,7 @@ This repository contains the comprehensive system and cloud architecture design 
 
 ## 📚 Architecture Design Components
 
-The architecture design is divided into four main components:
+The architecture design is divided into five main components:
 
 1. [High-Level System Architecture](./question1/README.md)
    - System components and microservices breakdown
@@ -16,15 +16,20 @@ The architecture design is divided into four main components:
    - Data modeling and storage strategies
    - Indexing and sharding approaches
 
-3. [API Design & Integration](./question3/README.md)
-   - RESTful API specifications
-   - Integration patterns with external services
+3. [API Gateway, Services & Security Plan](./question3/API_Gateway_Security_Plan.md)
+   - API Gateway configuration and security
+   - Service integration and security measures
    - API security and authentication
 
-4. [Security & Compliance](./question4/README.md)
-   - Security architecture and controls
-   - Compliance requirements and implementations
-   - Data protection and privacy measures
+4. [Transaction & Payout Logic Strategy](./question4/README.md)
+   - Transaction flow and atomicity enforcement
+   - Payout scheduling and failure recovery
+   - Messaging patterns and payment service interaction
+
+5. [Infrastructure, Observability & Monitoring Setup](./question5/Infra-setup/aws-infrastructure-setup.md)
+   - Infrastructure setup and configuration
+   - Observability and monitoring tools
+   - Performance and health monitoring
 
 ## 🎯 Key Features
 
